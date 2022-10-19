@@ -30,8 +30,8 @@ $resas = getResaViaVoiture($_GET['id']);
         <div class="card bg-transparent" style="width: 18rem;">
             <img src="public/img/<?= $voiture['image'] ?>" class="card-img-top mx-auto" alt="Image de voiture" style="width: 230px;">
             <div class="card-body">
-                <h5 class="card-title  "><?= $voiture['nom'] ?></h5>
-                <p class="card-text  "><?= $voiture['description'] ?>
+                <h5 class="card-title"><?= $voiture['nom'] ?></h5>
+                <p class="card-text"><?= $voiture['description'] ?>
                     <br><br> Prix par jour : <?= $voiture['prix_jour'] ?>€
                 </p>
 
